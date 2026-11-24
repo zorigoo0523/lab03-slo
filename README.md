@@ -1,6 +1,6 @@
 # Лаб 3: Чанарын сценарио → SLO → k6 threshold
-Нэр: ...
-Код: ...
+Нэр: Зоригтбаатар
+Код: B242270078
 k6 version: (k6 version командын гаралтыг энд хуул)
 
 ## Сценарио 1: Performance
@@ -21,7 +21,7 @@ k6 version: (k6 version командын гаралтыг энд хуул)
 ## SLO хүснэгт
 | Сценарио | SLI | Босго | Цонх |
 |---|---|---|---|
-| Performance | /cart/add latency | p95 < ... мс | ... |
+| Performance | /cart/add latency | p95 < 3 мс | ... |
 | Reliability | /pay error rate | < ...% | ... |
 | Availability | амжилттай хүсэлтийн хувь | ≥ ...% | ... |
 
