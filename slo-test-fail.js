@@ -8,7 +8,6 @@ export const options = {
     'http_req_failed{name:pay}':    ['rate<0.08'],
     'checks':                       ['rate>0.90'],
     'http_req_duration{name:report}': ['p(95)<100'],
-    'http_req_duration{name:report}': ['p(95)<100'],
   },
 };
 
